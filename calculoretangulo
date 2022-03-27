@@ -1,0 +1,36 @@
+algoritmo "retangulo"
+
+var
+
+   // declaração das variáveis
+   
+     base, altura, area, perimetro, diagonal : real
+
+inicio
+
+     escreva ("Digite valor da BASE ")
+     leia (base)
+     escrevaL("")
+     escreva ("Digite o valor da ALTURA ")
+     leia (altura)
+     escreval("")
+
+
+     // procesamento de dados
+     
+     area <- base * altura
+     escreva ("Valor da Area é ", area:8:4)
+
+     escreval ("")
+
+     perimetro <- (2 * base) + (2 * altura)
+     escreva ("Valor do Perimetro é ", perimetro:8:4)
+
+     escreval ("")
+
+     diagonal <- RaizQ (base ^ 2 + altura ^2)
+     escreva ("Valor Diagonal é ", diagonal:8:4)
+     
+     
+     
+fimalgoritmo
