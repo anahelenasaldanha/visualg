@@ -1,0 +1,45 @@
+algoritmo "SalarioFuncionarios"
+
+var
+
+     // declarações de variáveis
+ 
+          opcao, salario: real
+          funcionario: caracter
+inicio
+
+      Escreva("Olá, seja bem vindo a calculadora de impostos de funcionários")
+      EscrevaL ("")
+      EscrevaL ("")
+      EscrevaL ("Insira o nome completo do funcionário:")
+      Leia (funcionario)
+      EscrevaL ("Insira o valor do salário ")
+      leia (salario)
+      
+           //escolha filhos
+      
+      Escreval ("Possuí filhos?")
+      escrevaL
+      EscrevaL ("Se sim digite 1 se não digite 2")
+      escreval
+      escrevaL ("(1) Sim")
+      EscrevaL ("(2) Não")
+      escrevaL
+      escrevaL ("Escolha uma Opção")
+
+         // processamento
+      
+      leia (opcao)
+      escrevaL
+       escolha (opcao)
+       Caso 1
+         Se (opcao) = 1 entao
+       escreva ("valor do salário de ", funcionario , " é" ,  salario - 50)
+          fimse
+       escreval
+       Caso 2
+         se (opcao) = 2 entao
+       escreva ("Valor do salário de ", funcionario , " é" , salario - 100)
+         fimse
+   fimescolha
+fimalgoritmo
